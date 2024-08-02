@@ -9,4 +9,46 @@
         display: block;
         color: white;
     }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-header {
+        font-size: 40px;
+    }
+
+    .great-vibes-regular {
+        font-size: 78px;
+    }
+
+    .banner-btn-responsive {
+        display:flex;
+
+    }
+
+    .banner-img-button {
+        top: 50%;
+        right: 60%;
+    }
+
+    .banner-img-button-2 {
+        top: 12%;
+        left:55%;
+        width: 35%
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .habit-heading {
+        font-size: 30px;
+    }
+
+    .habit-para {
+        text-align: center;
+        width: 220px;
+        margin-bottom: 30px;
+    }
 }
