@@ -51,4 +51,72 @@
         width: 220px;
         margin-bottom: 30px;
     }
+
+    .running-div {
+        flex-direction: column;
+    }
+
+    .run-btn {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 100px;
+    }
+
+    .input-box-5{
+        height: 48px;
+        width: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #2D2D2D;
+        margin-bottom: 20px;
+        color: #817f7f;
+    }
+
+    .bmi-para {
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    .calculate-bmi {
+        margin-left: 20px;
+        display: none;
+    }
+
+
+    .form-container {
+        display:none;
+    }
+
+    .trainer-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 250px;
+        margin: 0 auto;
+ 
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-header-1 {
+        margin-bottom: 20px;
+    }
+
+    .footer-para {
+        margin-bottom: 20px;
+    }
+
+    .footer-header {
+        margin: 10px;
+    }
+    
 }

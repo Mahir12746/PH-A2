@@ -119,7 +119,6 @@
 }
 
 .btn-div {
-    border: solid 1px #E6533C;
     background-color: #E6533C;
     height: 35px;
     width: 35px;
@@ -237,7 +236,261 @@
     margin: 0 20px;
 }
 
-
-
-
 /* habit style ends */
+
+/* Running style starts */
+
+.running-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 57px 57px 57px;
+    background-color: #000000;
+
+}
+
+.running-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px;
+    background-color: #222222;
+    border-radius: 18px;
+    color: white;
+}
+
+.run-image {
+    height: 240px;
+    width: 280px;
+    border-radius: 16px;
+}
+
+.run-heading {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.run-para {
+    color: #817f7f;
+    margin-bottom: 20px;
+}
+
+/* Running style ends */
+
+/* bmi style starts */
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #414141;
+    padding: 10px;
+}
+
+.bmi-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 57px 57px 57px;
+    background-color: black;
+    color: white;
+}
+
+.bmi-para {
+    margin-top: 20px;
+    color: #817f7f;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 57px 30px 57px;
+    background-color: #222222;
+    color: white;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.form-box-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.calculate-bmi {
+    width: 577px;
+    margin-top: 60px;
+}
+
+.bmi-chart-header {
+    margin-bottom: 40px;
+}
+
+.input-box {
+    height: 48px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2D2D2D;
+    padding-left: 15px;
+    color: #817f7f;
+}
+
+.form-box {
+    padding: 4px;
+}
+
+.input-box-5{
+    height: 48px;
+    width: 510px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2D2D2D;
+    padding-left: 20px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+    color: #817f7f;
+}
+
+.bmi-botton {
+    margin-left: 200px;
+}
+
+/* bmi style ends */
+
+
+/* team style starts */
+
+.trainer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 780px;
+    background-color: #222222;
+    border-radius: 18px;
+    color: white;
+    margin-left: 100px;
+}
+
+.trainer-card {
+    padding: 20px 0px 20px 45px;
+}
+
+.trainer-img {
+    height: 180px;
+    width: 180px;
+    border-radius: 16px;
+}
+
+.team-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.team-header {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.team-para {
+    color: #817f7f;
+}
+
+.team-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 57px 57px 57px;
+    background-color: black;
+    color: white;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 57px;
+}
+
+/* team style ends */
+
+/* footer  style starts */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 57px;
+    background-color: #191919;
+    color: white;
+}
+
+.footer-header-1 {
+    color: #E6533C;
+}
+
+
+.footer-header {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-para {
+    color: #817f7f;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.footer-header{
+    margin-bottom: 20px;
+}
+
+ul>li {
+    list-style-type: none;
+    margin-bottom: 5px; 
+}
+
+.line {
+    border: 1px solid #817f7f;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 57px;
+    background-color: #191919;
+    color: white;
+}
+
+.line {
+    border: 1px solid #817f7f;
+    width: 100%; ;
+}
+
+/* footer style ends */
